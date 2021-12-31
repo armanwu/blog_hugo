@@ -179,7 +179,7 @@ pluralizelisttitles = false
 
  [languages]
   [languages.en]
-    subtitle  = "Just another architect.."
+    subtitle  = ""
     weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 

@@ -1,4 +1,4 @@
-baseURL = "https://armanwu.github.io/about/"
+baseURL = "https://armanwu.github.io/"
 title   = "Just another architect.."
 languageCode = "en-us"
 theme = "hello-friend-ng"
@@ -75,7 +75,7 @@ pluralizelisttitles = false
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   #
-  disableReadOtherPosts = false
+  disableReadOtherPosts = true
 
   # Enable theme toggle
   # 

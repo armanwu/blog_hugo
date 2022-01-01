@@ -1,0 +1,15 @@
+[submodule "themes/anatole"]
+	path = themes/anatole
+	url = https://github.com/lxndrblz/anatole.git
+[submodule "themes/researcher"]
+	path = themes/researcher
+	url = https://github.com/ojroques/hugo-researcher.git
+[submodule "themes/anubis"]
+	path = themes/anubis
+	url = https://github.com/mitrichius/hugo-theme-anubis.git
+[submodule "gruvhugo"]
+	path = gruvhugo
+	url = https://gitlab.com/avron/gruvhugo.git
+[submodule "themes/hugo-kiera"]
+	path = themes/hugo-kiera
+	url = https://github.com/funkydan2/hugo-kiera.git

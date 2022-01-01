@@ -1,4 +1,4 @@
-baseURL = "https://armanwu.github.io/"
+baseURL = "https://armanwu.github.io/about/"
 title   = "Just another architect.."
 languageCode = "en-us"
 theme = "hello-friend-ng"
@@ -35,9 +35,9 @@ disableHugoGeneratorInject = false
 
 pluralizelisttitles = false
 
-[permalinks]
-  puisi = "/puisi/:year/:month/:title/"
-  celoteh = "/celoteh/:year/:month/:title/"
+# [permalinks]
+  # puisi = "/puisi/:year/:month/:title/"
+  # celoteh = "/celoteh/:year/:month/:title/"
 
 [author]
   name = "Arman Arisman"
@@ -183,17 +183,30 @@ pluralizelisttitles = false
     weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
+  [languages.fr]
+    subtitle  = "Hello Friend NG Theme"
+    weight    = 2
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
 [menu]
   [[menu.main]]
     identifier = "about"
     name       = "About"
     url        = "about/"
+    weight     = 2
   [[menu.main]]
+    identifier = "blog-id"
+    name       = "Blog-ID"
+    url        = "blog-id/"
+    weight     = 1
+  [[menu.main]]
+    parent     = "blog-id"
     identifier = "celoteh"
     name       = "Celoteh"
-    url        = "celoteh/"
+    url        = "categories/Celoteh"
   [[menu.main]]
-    identifier = "Puisi"
+    parent     = "blog-id"
+    identifier = "puisi"
     name       = "Puisi"
-    url        = "puisi/"
+    url        = "categories/Puisi"
  

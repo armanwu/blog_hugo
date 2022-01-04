@@ -51,10 +51,10 @@ pluralizelisttitles = false
   series   = "series"
 
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04"
+  # dateform        = "Jan 2, 2006"
+  # dateformShort   = "Jan 2"
+  # dateformNum     = "2006-01-02"
+  # dateformNumTime = "2006-01-02 15:04"
 
   # Metadata mostly used in document's head
   # 
@@ -64,7 +64,7 @@ pluralizelisttitles = false
 
   # Home subtitle of the index page.
   #
-  homeSubtitle = " "
+  homeSubtitle = ""
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"
@@ -75,7 +75,7 @@ pluralizelisttitles = false
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   #
-  disableReadOtherPosts = true
+  disableReadOtherPosts = false
 
   # Enable theme toggle
   # 
@@ -133,12 +133,12 @@ pluralizelisttitles = false
 
   [params.logo]
     logoMark     = " "
-    logoText     = "Arman Wu"
+    logoText     = "armanwu@blog:~$ "
     # logoHomeLink = ""
     # Set true to remove the logo cursor entirely.
-    logoCursorDisabled = true
+    logoCursorDisabled = false
     # Set to a valid CSS color to change the cursor in the logo.
-    # logoCursorColor    = "#000000"
+    logoCursorColor    = "#3AD2FF"
     # Set to a valid CSS time value to change the animation duration, "0s" to disable.
     # logoCursorAnimate  = "2s"
 
@@ -192,21 +192,26 @@ pluralizelisttitles = false
   [[menu.main]]
     identifier = "about"
     name       = "About"
-    url        = "about/"
-    weight     = 2
+    url        = "/about/"
+    weight     = 3
   [[menu.main]]
     identifier = "blog-id"
     name       = "Blog-ID"
-    url        = "blog-id/"
+    url        = "/blog-id/"
     weight     = 1
   [[menu.main]]
     parent     = "blog-id"
     identifier = "celoteh"
     name       = "Celoteh"
-    url        = "categories/Celoteh"
+    url        = "/categories/Celoteh"
   [[menu.main]]
     parent     = "blog-id"
     identifier = "puisi"
     name       = "Puisi"
-    url        = "categories/Puisi"
+    url        = "/categories/Puisi"
+  [[menu.main]]
+    identifier = "categories"
+    name       = "Categories"
+    url        = "/categories/"
+    weight     = 2
  

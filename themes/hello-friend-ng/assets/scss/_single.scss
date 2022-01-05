@@ -131,21 +131,11 @@
       background: $light-background;
       color: $light-color-secondary;
 
-      @media (prefers-color-scheme: dark) {
-        background: $dark-background;
-        color: $dark-color-secondary;
-      }
-    
       @media (prefers-color-scheme: light) {
         background: $light-background;
         color: $light-color-secondary;
       }
-    
-      [data-theme=dark] & {
-        background: $dark-background;
-        color: $dark-color-secondary;
-      }
-    
+
       [data-theme=light] & {
         background: $light-background;
         color: $light-color-secondary;
@@ -189,16 +179,8 @@
   // Default
   background: $light-background-secondary;
 
-  @media (prefers-color-scheme: dark) {
-    background: $dark-background-secondary;
-  }
-
   @media (prefers-color-scheme: light) {
     background: $light-background-secondary;
-  }
-
-  [data-theme=dark] & {
-    background: $dark-background-secondary;
   }
 
   [data-theme=light] & {

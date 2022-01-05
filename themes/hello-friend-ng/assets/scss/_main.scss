@@ -37,19 +37,9 @@ body {
     font-size: 1rem;
   }
 
-  @media (prefers-color-scheme: dark) {
-    background-color: $dark-background;
-    color: $dark-color;
-  }
-
   @media (prefers-color-scheme: light) {
     background-color: $light-background;
     color: $light-color;
-  }
-
-  [data-theme=dark] & {
-    background-color: $dark-background;
-    color: $dark-color;
   }
 
   [data-theme=light] & {
@@ -191,18 +181,10 @@ figure {
 
 em, i, strong {
   // Default
-  color: black;
-
-  @media (prefers-color-scheme: dark) {
-    color: white;
-  }
+  color: grey;
 
   @media (prefers-color-scheme: light) {
     color: black;
-  }
-
-  [data-theme=dark] & {
-    color: white;
   }
 
   [data-theme=light] & {
@@ -221,16 +203,8 @@ code {
   // Default
   background: $light-background-secondary;
 
-  @media (prefers-color-scheme: dark) {
-    background: $dark-background-secondary;
-  }
-
   @media (prefers-color-scheme: light) {
     background: $light-background-secondary;
-  }
-
-  [data-theme=dark] & {
-    background: $dark-background-secondary;
   }
 
   [data-theme=light] & {
@@ -239,10 +213,6 @@ code {
 }
 
 pre {
-  [data-theme=dark] & {
-    background-color: $dark-background-secondary;
-  }
-
   [data-theme=light] & {
     background-color: $light-background-secondary;
   }
@@ -265,18 +235,10 @@ pre {
     // Default
     color: #ccc;
 
-    @media (prefers-color-scheme: dark) {
-      color: inherit;
-    }
-  
     @media (prefers-color-scheme: light) {
       color: #ccc;
     }
-  
-    [data-theme=dark] & {
-      color: inherit;
-    }
-  
+
     [data-theme=light] & {
       color: #ccc;
     }
@@ -354,16 +316,8 @@ hr {
   // Default
   background: $light-border-color;
 
-  @media (prefers-color-scheme: dark) {
-    background: $dark-border-color;
-  }
-
   @media (prefers-color-scheme: light) {
     background: $light-border-color;
-  }
-
-  [data-theme=dark] & {
-    background: $dark-border-color;
   }
 
   [data-theme=light] & {

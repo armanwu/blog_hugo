@@ -26,3 +26,12 @@
 [submodule "themes/hugo-theme-codex"]
 	path = themes/hugo-theme-codex
 	url = https://github.com/jakewies/hugo-theme-codex.git
+[submodule "themes/introduction"]
+	path = themes/introduction
+	url = https://github.com/victoriadrake/hugo-theme-introduction.git
+[submodule "themes/tale"]
+	path = themes/tale
+	url = https://github.com/EmielH/tale-hugo.git
+[submodule "themes/hugo-refresh"]
+	path = themes/hugo-refresh
+	url = https://github.com/PippoRJ/hugo-refresh.git

@@ -209,3 +209,8 @@ pluralizelisttitles = false
     name       = "Categories"
     url        = "/categories/"
     weight     = 2
+  [[menu.main]]
+    identifier = "architecture"
+    name       = "Architecture"
+    url        = "/Architecture/"
+    weight     = 1
